@@ -1,0 +1,90 @@
+ body{
+     margin:0;
+     padding: 0;
+    background-image: url('fond-bebe.jpg');
+    background-attachment: fixed;
+    /* background-color:blue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.menu{
+    margin:30px;
+    font-weight: bold;
+    font-size:20px;
+    z-index: 100;
+}
+.infocarte
+{
+    border:1px solid;
+    height:300px;
+
+}
+.carte{
+    position:absolute;
+    margin:50px;
+    margin-left:15%;
+    z-index: -1;
+}
+.descriptioncart{
+    margin:30px;
+    position:absolute;
+    border:1px solid;
+    width:50%;
+    margin-left:48%;
+    text-align:center;
+    font-size:25px;
+    z-index: -1;
+}
+.contenu_marque
+{
+    background-color:white;
+}
+.btn-assistance{
+    position:absolute;
+    margin-left:1000px;
+}
+.infos
+{
+    font-size:20px;
+}
+.Accueil,.Service
+{
+    height:100vh;
+}
+.space
+{
+    height :50px;
+    border:1px solid;
+    margin-top:5%;
+    background-color: violet;
+}
+.marque
+{
+    margin:10px;
+}
+#logo{
+    color:violet;
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#assistance{
+    height:60px;
+    font-size: 20px;
+    z-index: -1;
+
+}
+#connexion{
+    margin-left:800px;
+    font-size: 20px;
+}
+#Panier{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#nav
+{
+    background-color:rgb(78, 74, 74);
+    margin-top: -10px;
+    position:sticky;
+    top:0;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mkbs.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <span id="logo"> Malise Kids & BABYSHOP</span>
+        <span id="connexion">Connexion</span>
+        <span id="Panier">Panier</span>
+    </div>
+    <div id='nav'>
+        <hr>
+        <span class="menu" id="accueil">Accueil</span>
+        <span class="menu" id="service">Services</span>
+        <span class="menu">Paniers Cadeaux</span>
+        <span class="menu">Filles</span>
+        <span class="menu">Garçon</span>
+        <span class="menu">Accessoires</span>
+        <span class="menu">Ventes Privés</span>
+        <span class="menu" id="mkbs" style="color:red;">Malise Shopper's club</span>
+        <hr>
+    </div>
+
+    <div align="center">
+        <p class="infos"><i>La qualité à petit prix, un casse-tête pour les parents.Heureusement MALISE KIDS & BABYSHOP est là </i></p>
+        <p class="infos" style="color:orange;"><i>Toutes les livraisons sont gratuites à partir de 25.000 d'achat</i></p>
+    </div>
+    <div class="infocarte">
+        <div>
+        <img class="carte" src="carte kdo.png" alt="">
+        </div>
+        <div class="descriptioncart">
+                <p>Les cartes MALISE SHOPPER'S CLUB vous donnent droit à des remises de 10% à 15% sur tous vos achats sur une durée de 12 mois quel que soit le montant de votre achat
+                    +livraison gratuite
+                </p>
+                <p>Carte de 10% au tarif de 10.000</p>
+                <p>Carte de 15% au tarif de 20.000</p>
+        </div>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td><span id="num-contact">Contatct: 09.90.08.90/01.00.03.09</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span>Mail: malisebabyshop@gmail.com</span></td>
+            </tr>
+            <tr>
+                <td><span id="facebook-contact">Facebook:Malise Kids & Babyshop</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td> <span>Whatsapp:09.90.08.90</span></td>
+            </tr>
+        </table>
+    </div>
+    <input id="assistance" class="btn-assistance" type="submit" value="Assitance en ligne">
+    <div class="space">
+    </div>
+    <div class="Accueil">
+        <h1>Accueil</h1>
+        <p>PAR AMOUR POUR LES ENFANTS</p>
+        <p>
+            MALISE KIDS & BABYSHOP est une boutique spécialisée dans la vente de vêtements et accessoires de qualité pour enfants de 0 à 12 ans à des prix tout à fait abordables. 
+        </p>
+        <div class="contenu_marque">
+            <img class="marque" src="1.png" alt="">
+            <img class="marque" src="2.png" alt="">
+            <img class="marque" src="3.jpg" alt="">
+            <img class="marque" src="4.png" alt="">
+            <img class="marque" src="5.png" alt="">
+            <img class="marque" src="6.png" alt="">
+            <img class="marque" src="7.png" alt="">
+            <img class="marque" src="8.png" alt="">
+            <img class="marque" src="9.png" alt="">
+        </div>
+        <p style="text-align: center;">Fournir de la QUALITE à PETIT PRIX est notre priorité</p>
+    </div>
+    <div class="space">
+    </div>
+    <div class="Service">
+        <h1>Service</h1>
+        <h3><u>MON SHOPPING A DOMICILE</u></h3>
+        <p>La préparation d’une naissance ou le shopping pour nos enfants n’est pas toujours de tout repos et vous vous sentez trop fatigué pour faire le tour des magasins pour trouver la perle rare. Vous pouvez relaxer, NOUS NOUS DEPLACONS CHEZ VOUS.
+            Contactez-nous pour prendre RDV au 09 90 08 90.
+            </p>
+            <h3><u>LISTE DE NAISSANCE SUR MESURE</u></h3>
+            <p>
+                Vous avez un budget à ne pas dépasser ? vous avez des envies et des besoins spécifiques ? 
+Dressons ensemble votre LISTE SUR MESURE, le tout 100% BONNE AFFAIRE. 
+Contactez-nous pour en discuter au 09 90 08 90.
+
+            </p>
+    </div>
+    <div class="space"></div>
+    <div class="panier kdo">
+
+    </div>
+</body>
+</html>
+<script> 
+    var nav = document.getElementById('nav');
+    var accueil = document.getElementById('accueil');
+    var service = document.getElementById('service');
+    var mkbs = document.getElementById('mkbs');
+
+    window.onscroll = function () {
+      if(window.pageYOffset > 600 && window.pageYOffset <  1200 ){
+       accueil.style.color = "red";
+       mkbs.style.color="black"
+       service.style.color="black";
+       }else if(window.pageYOffset > 1200 ){
+           service.style.color="red";
+        accueil.style.color = "black";
+        mkbs.style.color = "black";
+       }else
+       {
+        service.style.color="black";
+        accueil.style.color = "black";
+        mkbs.style.color = "red";
+       }
+    }
+</script> 
